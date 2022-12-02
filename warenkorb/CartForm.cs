@@ -19,7 +19,6 @@ namespace bestellungen_erfassen
 
             this.items = orderedItems;
         }
-
         private void CartForm_Load(object sender, EventArgs e)
         {
             foreach (OrderItem produkt in items)
@@ -27,7 +26,6 @@ namespace bestellungen_erfassen
                 listBoxItems.Items.Add(produkt.Anzahl + " Ex." +  "\t" + produkt.ProduktName);
             }
         }
-
         private void buttonExit_Click(object sender, EventArgs e)
         {
             this.Close();
