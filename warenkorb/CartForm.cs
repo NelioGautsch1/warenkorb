@@ -13,7 +13,6 @@ namespace bestellungen_erfassen
     public partial class CartForm : Form
     {
         List<OrderItem> items;
-
         public CartForm(List<OrderItem> orderedItems)
         {
             InitializeComponent();
